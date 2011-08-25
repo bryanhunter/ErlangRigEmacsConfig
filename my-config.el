@@ -1,6 +1,6 @@
 ;; Explorer more popular emacs options here: http://www.emacswiki.org/emacs/PopularOptions
 
-(setq default-directory "C:/talks/erlang/" )
+(setq default-directory "C:/code/" )
 
 ;; color-theme (http://www.emacswiki.org/emacs/ColorTheme)
 (add-to-list 'load-path "~/emacs-config/color-theme")
@@ -27,11 +27,11 @@
 		:underline nil 
 		:slant normal 
 		:weight normal
-		:height 160 	;; The value is in 1/10pt, so 100 will give you 10pt, etc.
+		:height 140 	;; The value is in 1/10pt, so 100 will give you 10pt, etc.
 		:width normal
 		:foundry "unknown" 
-		:family "DejaVu Sans"
-		;;	:family "Consolas"
+		:family "Consolas"
+		;; :family "DejaVu Sans" ;; You can download this lovely font here: http://dejavu-fonts.org/wiki/Download
 	)))))
 
 (require 'dircolors)
