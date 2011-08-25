@@ -21,5 +21,7 @@ If you don't already have Emacs install it. I'm using Emacs 23.2.
 Clone (or download and extract) this repository so that the directory "emacs-config" is in your home directory (Linux "~/" Windows "%HOME%").
 Once you have a "~/emacs-config" directory edit your "~/.emacs" file to require emacs-config by adding these two lines:
 
-`(add-to-list 'load-path "~/emacs-config")
-`(require 'my-config)
+<pre>
+(add-to-list 'load-path "~/emacs-config")
+(require 'my-config)
+</pre>
