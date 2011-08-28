@@ -1,9 +1,9 @@
 ;; Explorer more popular emacs options here: http://www.emacswiki.org/emacs/PopularOptions
 
-(setq default-directory "C:/code/" )
+;;(setq default-directory "C:/code/" )
 
 ;; color-theme (http://www.emacswiki.org/emacs/ColorTheme)
-(add-to-list 'load-path "~/emacs-config/color-theme")
+(add-to-list 'load-path "~/ErlangRigEmacsConfig/color-theme/")
 (require 'color-theme)
 	(color-theme-initialize)
 	;;	(color-theme-calm-forest)
@@ -103,7 +103,7 @@
 (require 'csharp-config)
 
 ;; Add some Git goodies
-(setq load-path (cons "~/emacs-config/magit" load-path))
+(setq load-path (cons "~/ErlangRigEmacsConfig/magit" load-path))
 (require 'magit)
  
 (provide 'my-config)

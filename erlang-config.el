@@ -6,7 +6,7 @@
 	  (require 'erlang-eunit)
 
 
-(let ((distel-dir "~/emacs-config/distel/elisp"))
+(let ((distel-dir "~/ErlangRigEmacsConfig/distel/elisp"))
   (unless (member distel-dir load-path)
     ;; Add distel-dir to the end of load-path
     (setq load-path (append load-path (list distel-dir)))))
@@ -35,6 +35,6 @@
 ;;		'flymake-create-temp-inplace))
 ;;	(local-file (file-relative-name temp-file
 ;;		(file-name-directory buffer-file-name))))
-;;	(list "~/emacs-config/check-erlang.erl" (list local-file))))
+;;	(list "~/ErlangRigEmacsConfig/check-erlang.erl" (list local-file))))
 ;;(add-to-list 'flymake-allowed-file-name-masks '("\\.erl\\'" flymake-erlang-init))
 ;;(setq flymake-log-level 3)
